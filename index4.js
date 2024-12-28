@@ -3,7 +3,7 @@
 
 class ActorPaid{
     Hollywood = '1200 cr';
-    #Bollywood = '500 cr';
+    #Bollywood = '500 cr';  // --> (#) it's stand for hidden 
     Tollywood = '700 cr'
 
 
@@ -23,7 +23,7 @@ class ActorPaid{
         console.log("Hy i am outside");
     }
 
-
+    // using get set method
     get fetchbollywood(){
         return this.Bollywood;
     }
