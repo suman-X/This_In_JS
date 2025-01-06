@@ -21,7 +21,7 @@ async function name(){
 
     let a = await promise1;
     console.log(a)
-    return [a]
+    
     }
     
     const dp = async()=>{
