@@ -13,7 +13,7 @@ async function suman() {
   let delhiWeather = new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve("21 deg");
-    }, 3000);
+    }, 2000);
   });
 
 //    kolkataWeather.then(alert);
